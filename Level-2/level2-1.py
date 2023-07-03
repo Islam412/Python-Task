@@ -13,9 +13,9 @@ print(name1)
 print("___________________________________________________________________")
 
 # - functional programming
-def my_upper(name):
-    return n.upper()
-name2=list(map(my_upper,Names))
-print(name2)
-
+def my_upper(Names):
+    return Names.upper()
+name2=map(my_upper,Names)
+print(list(name2))
+print("____________________________________________________________________")
 
