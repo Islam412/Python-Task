@@ -17,10 +17,11 @@ print(name1)
 print('_______________________________________________')
 
 #functional programming
-def search(n):
+def search_letter(n):
     if 'a' in n:
         return n
-name2=map(search,Names)
+name2=map(search_letter,Names)
 print(list(name2))
-name3=filter(search,Names)
+print("____________")
+name3=filter(search_letter,Names)
 print(list(name3))

@@ -17,9 +17,9 @@ print("_________________________________________________________________________
 
 
 #functional programming
-def search(n):
+def search_letter(n):
     if n[0]=='t':
         return (n)
-name3=filter(search,Names)
+name3=filter(search_letter,Names)
 print(list(name3))
 print("____________________________________________________________________________")
